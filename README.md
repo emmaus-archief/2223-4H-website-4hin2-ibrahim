@@ -16,18 +16,18 @@ Werk de planning af van boven naar beneden<br>
 Geef aan met [x] welke onderdelen af zijn
 
 ### Stap 1: Start 
-- [ ] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
-- [ ] Je hebt een account aangemaakt op www.github.com.
-- [ ] Je hebt de voorbeeldwebsite van de docent gekopieerd naar je eigen github account. 
-- [ ] Je hebt het onderwerp in de kop op van je homepage gezet.
+- [X] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
+- [X] Je hebt een account aangemaakt op www.github.com.
+- [X] Je hebt de voorbeeldwebsite van de docent gekopieerd naar je eigen github account. 
+- [X] Je hebt het onderwerp in de kop op van je homepage gezet.
 
 Aan het einde van stap 1 heb je de voorbeeldwebsite van je docent waarin je zelf de kop hebt aangepast.
 
 ### Stap 2: Menu en bestandsstructuur
-- [ ] Je hebt bepaald wat je op de hoofdpagina en de subpagina’s (minimaal 4) wilt laten zien.
-- [ ] Je past het menu in index.html aan, zodat het de keuzes biedt voor jouw subpagina's
-- [ ] Je maakt een html-bestand voor alle pagina’s. De titel en het menu staan erop, maar de inhoud nog niet. 
-- [ ] Je hebt een werkend menu waarmee je naar de verschillende pagina’s kunt gaan, de layout kun je later nog aanpassen en mooi maken. 
+- [X] Je hebt bepaald wat je op de hoofdpagina en de subpagina’s (minimaal 4) wilt laten zien.
+- [X] Je past het menu in index.html aan, zodat het de keuzes biedt voor jouw subpagina's
+- [X] Je maakt een html-bestand voor alle pagina’s. De titel en het menu staan erop, maar de inhoud nog niet. 
+- [X] Je hebt een werkend menu waarmee je naar de verschillende pagina’s kunt gaan, de layout kun je later nog aanpassen en mooi maken. 
 
 Aan het einde van stap 2 heb je een werkend menu met minimaal vier lege subpagina's.
 

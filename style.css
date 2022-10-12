@@ -61,7 +61,7 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: #411010;
 }
 
 .smalltext {
@@ -70,7 +70,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: #411010;
     text-decoration: none;
 }
 
@@ -81,15 +81,18 @@ a:hover {
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
+    width: fit-content;
     list-style-type: none;
     margin: auto;
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
+  border: solid 2px #6d3737;
+  border-radius: 25px;
 }
 
 nav ul li {
-    float: left;
+  float: left;
 }
 
 nav li a {
@@ -101,9 +104,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #a25757;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #6d3737;
 }
