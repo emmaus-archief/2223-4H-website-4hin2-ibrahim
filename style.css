@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -22,7 +22,7 @@ body * {                          /* geldt voor alles in body */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 1500px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -85,10 +85,11 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #ffffff;
     overflow: hidden;
   border: solid 2px #6d3737;
   border-radius: 25px;
+  font-family: Helvetica;
 }
 
 nav ul li {
@@ -97,7 +98,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -111,11 +112,13 @@ nav li a.active {
     background-color: #6d3737;
 }
 
+ /* Slideshow */
 .slideshow {
-    width: 650px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border: solid 1px black;
+    border-radius: 10px;
 }
 .midden {
     position: absolute;
@@ -173,4 +176,36 @@ input[name="r"]{
 }
 #r5:checked ~ .s1 {
     margin-left: -80%;
+}
+/* Header */
+.ibylogo {
+  height: 100px;
+  width: 100px;
+}
+#header {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+.ibylogo {
+      transition: 1s;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+.ibylogo:hover{
+    transform:scale(1.2);
+}
+.ibylogodiv {
+      justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.kettingcolumn {
+  padding-top: 25px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  width: 300px;
 }
