@@ -87,29 +87,29 @@ nav ul {
     padding: 0;
     background-color: #ffffff;
     overflow: hidden;
-  border: solid 2px #6d3737;
   border-radius: 25px;
   font-family: Helvetica;
 }
 
 nav ul li {
   float: left;
+  padding-left: 60px;
 }
 
 nav li a {
     display: block;
-    color: black;
+    color: #828282;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #a25757;
+    color: black;
 }
 
 nav li a.active {
-    background-color: #6d3737;
+    color: black;
 }
 
  /* Slideshow */
