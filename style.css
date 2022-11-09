@@ -204,8 +204,10 @@ input[name="r"]{
 .kettingcolumn {
   padding-top: 25px;
   vertical-align: top;
-  display: inline-block;
   text-align: center;
   float: left;
   width: 300px;
+}
+.kettingcolumn img {
+  width:100%;
 }
