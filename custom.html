@@ -1,41 +1,51 @@
 <!DOCTYPE html>
+<html>
+    <head>
+<style>
+img {
+    width:100%;
+    height:100%;
+}
+.foto1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.overgang {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    width: 0%;
+    opacity: 0%;
+    transition: 0.75s;
+}
+.foto1:hover .overgang {
+ opacity: 1;   
+}
+.foto2 {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+}
+</style>
+        <meta charset="utf-8">
+        <title>Overgang</title>
+    </head>
+    <body>
+       <table>
+       <div class="foto1">
+           <img src="afbeeldingen/">
+           <div class="overgang">
+               <div class="foto2"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/butterfly.png"></div>
+           </div>
+       </div>
+       
+        </table>
 
-<html lang="nl">
-
-<head>
-  <link rel="stylesheet" href="style.css" />
-  <title>Webshop</title>
-  <meta charset="UTF-8" />
-</head>
-
-<body>
-  <div class="page">
-
-    <header>
-      <div class="ibylogodiv" id="header" href="index.html"><img class="ibylogo" src="afbeeldingen/Ibylogo.jpg"></div>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="ketting.html">Kettingen</a></li>
-        <li><a href="horloge.html">Horloge's</a></li>
-        <li><a href="ring.html">Ringen</a></li>
-        <li><a class="active" href="custom.html">Custom artikelen</a></li>
-        <li><a href="info.html">Info</a></li>
-      </ul>
-    </nav>
-
-    <main>
-
-    </main>
-
-    <footer>
-      <hr />
-      <p class="smalltext">-Iby®- -1914-</p>
-    </footer>
-
-  </div>
-</body>
-
+    </body>
 </html>

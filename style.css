@@ -225,13 +225,8 @@ img {
 }
 .foto1 {
     position: relative;
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: top;
-    text-align: center;
-    float: left;
+    width: 200px;
+    height: 200px;
 }
 .overgang {
     position: absolute;
@@ -251,11 +246,44 @@ img {
     position: absolute;
     top: 100%;
     left: 100%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+}
+ /*
+.foto3 {
+    position: relative;
+    width: 568px;
+    height: 757px;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
     text-align: center;
     float: left;
 }
+.overgang {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    width: 0%;
+    opacity: 0%;
+    transition: 0.75s;
+}
+.foto3:hover .overgang {
+ opacity: 1;   
+}
+.foto4 {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 568px;
+    height: 757px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    text-align: center;
+    float: left;
+}
+*/
